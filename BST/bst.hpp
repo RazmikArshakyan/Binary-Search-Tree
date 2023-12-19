@@ -39,8 +39,6 @@ private:
     Node* search_it(Node* node, int key);
     Node* min_node_it(Node* node);
     Node* max_node_it(Node* node);
-    void preorder_traversal_it(Node* node);
-    void postorder_traversal_it(Node* node);
     Node* root = nullptr;
 };
 
