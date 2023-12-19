@@ -89,14 +89,6 @@ inline void BST::inorder_traversal_it(Node *node)
     }
 }
 
-inline void BST::preorder_traversal_it(Node *node)
-{
-}
-
-inline void BST::postorder_traversal_it(Node *node)
-{
-}
-
 inline Node *BST::successor(Node *node)
 {
     if (!node) {
