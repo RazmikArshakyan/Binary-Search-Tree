@@ -28,7 +28,7 @@ inline Node *BST::search(Node* node,int key)
 
 inline Node *BST::search_it(Node *node, int key)
 {
-    while (node && node->key == key) {
+    while (node && node->key != key) {
         if (node->key > key) {
             node = node->left;
         }
